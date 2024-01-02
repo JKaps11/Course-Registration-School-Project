@@ -56,7 +56,7 @@ const search = async () => {
 
     // Implement fetch to get a list of classes corresponding to name
     const response = await fetch(
-      `https://4jui141iri.execute-api.us-east-1.amazonaws.com/dev/search?search=${encodedClassName}`
+      `apirull${encodedClassName}`
     );
 
     // Log the entire response to the console
